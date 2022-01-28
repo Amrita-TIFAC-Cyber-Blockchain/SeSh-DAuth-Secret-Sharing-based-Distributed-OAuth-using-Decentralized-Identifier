@@ -1,4 +1,5 @@
 # DAuth: Distributed OAuth using Decentralized Identifiers with Secret Sharing
+![](https://img.shields.io/badge/Batch-20CYS-green) ![](https://img.shields.io/badge/Domain-Blockchain-blue) ![](https://img.shields.io/badge/M.Tech--Thesis-WIP-orange) 
 
 ## Abstract 
 
