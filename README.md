@@ -1,4 +1,4 @@
-# DAuth: Distributed OAuth using Decentralized Identifiers with Secret Sharing
+# DAuth: Distributed OAuth using Decentralized Identifiers with Secret Sharing ![](https://img.shields.io/badge/-Live-brightgreen)
 ![](https://img.shields.io/badge/Batch-20CYS-green) ![](https://img.shields.io/badge/Domain-Blockchain-blue) ![](https://img.shields.io/badge/M.Tech--Thesis-WIP-orange) 
 
 ## Abstract 
@@ -12,7 +12,7 @@
 [Click here]() to access the webpage.
 
 ## Acknowledgement
-We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "M.Tech Cyber Security" Thesis. 
+We would like to acknowldge the support provided by **TIFAC-CORE in Cyber Security**, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "**M.Tech Cyber Security**" Thesis. 
 
 #### Guide : Dr. K. Praveen, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
 #### Co-Guide : Mr. Ramaguru Radhakrishnan, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
