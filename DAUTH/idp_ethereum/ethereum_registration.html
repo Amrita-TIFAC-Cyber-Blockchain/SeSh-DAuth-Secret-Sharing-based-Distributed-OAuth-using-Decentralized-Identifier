@@ -1,0 +1,95 @@
+<!--
+    Author: Danda Prudhvi Krishna
+    Created Date : 20 Mar 2022
+    Updated Date : 29 Mar 2022
+    Description  : Registration Page for Ethereum - Identity Provider
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>
+        Registration Form
+    </title>
+
+<body>
+
+    <header>
+        <div class="container">
+            <form id="myForm" class="form-horizontal" role="form">
+                <img src="../images/Ethereum.png" alt="Ethereum logo" class="logo">
+                <h2>Amrita DID Registration</h2>
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">First Name*</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="firstname" id="firstName" placeholder="First Name" class="form-control"
+                            autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="middleName" class="col-sm-3 control-label">MiddleName</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="middlename" id="middleName" placeholder="Middle Name"
+                            class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastName" class="col-sm-3 control-label">Last Name*</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="lastname" id="lastName" placeholder="Last Name" class="form-control"
+                            autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email* </label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="Email" class="form-control" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="SSN" class="col-sm-3 control-label">SSN*</label>
+                    <div class="col-sm-9">
+                        <input type="Number" name="ssn" id="ssnNumber" placeholder="SSN" class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Bloodgroup" class="col-sm-3 control-label">Blood Group*</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="bloodgroup" id="BloodGroup" placeholder="Blood Group"
+                            class="form-control" autofocus>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Birth Date*</label>
+                    <div class="col-sm-9">
+                        <input type="date" name="birthDate" id="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber" class="col-sm-3 control-label">Phone*</label>
+                    <div class="col-sm-9">
+                        <input type="phoneNumber" name="phone" id="phoneNumber" placeholder="Phone Number"
+                            class="form-control" autofocus>
+                        <span class="help-block">Your phone number won't be disclosed anywhere </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <span class="help-block">*Required fields</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+        <div class="results">
+            <p class="result-json-output"></p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../js/form-to-json.js"></script>
+        <script src="../js/script.js"></script>
+</body>
+</head>
+
+</html>
