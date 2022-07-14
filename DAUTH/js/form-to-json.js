@@ -81,7 +81,6 @@ jQuery(function( $ ){
                 // create JSON data
                 $(submittedData).promise().done(function(){
                     // save json data
-                    jsonOutputData.id = Math.random();
                     jsonOutputData.firstname = submittedData[0][1];
                     jsonOutputData.middlename = submittedData[1][1];
                     jsonOutputData.lastname = submittedData[2][1];
