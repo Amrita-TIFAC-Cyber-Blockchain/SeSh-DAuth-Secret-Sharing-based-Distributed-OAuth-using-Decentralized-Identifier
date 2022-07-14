@@ -263,49 +263,50 @@ jQuery(function( $ ){
             
             contractaddress = '0xc06Ed4135aeCa49DC350623321737c6DC13c12f4';
             abi = [
-	{
-		"inputs": [
 			{
-				"internalType": "string",
-				"name": "_ihos2",
-				"type": "string"
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ihos2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ihos3",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_ihos4",
+						"type": "string"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			},
 			{
-				"internalType": "string",
-				"name": "_ihos3",
-				"type": "string"
-			},
-			{
-				"internalType": "string",
-				"name": "_ihos4",
-				"type": "string"
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
-		],
-		"name": "store",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_add",
-				"type": "address"
-			}
-		],
-		"name": "retrieve",
-		"outputs": [
-			{
-				"internalType": "string",
-				"name": "",
-				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	}
-]
+		]
+		
             console.log("Store the Shares to Ethereum");
 
             //Instantiate and connect to contract address via ABI
@@ -324,7 +325,7 @@ jQuery(function( $ ){
                         // console.log(Share[u1][j]);
                          str = Share[u1].join('');
                     }
-                    const str = [];
+                    const hashstr = [];
                     var i = 0;
                     console.log(str);
                     if (u1>0){
@@ -337,7 +338,7 @@ jQuery(function( $ ){
                             chunks.push(chunk);
                         }
                         console.log("Added file contents:", chunks.toString());
-                        str[i++] = cid.path;
+                        hashstr[i++] = cid.path;
                         // const data = await node.cat(cid)
                         // console.log('data present',data)
                         // const decoder = new TextDecoder();
@@ -349,12 +350,11 @@ jQuery(function( $ ){
                         // console.log(Buffer.from(bytes).toString(2));
                     }
                    
-                    var result = myContract.methods.store(str[0],str[1],str[2]).send(function (err, result) {
+                    var result = myContract.methods.store(hashstr[0],hashstr[1],hashstr[2]).send(function (err, result) {
 
-                    console.log("Result: ", result)
+                    console.log("Result: ", result);
                     if (err) { console.log(err); }
                     if (result) { console.log(result); }
-                    // console.log();
                     
                    });
                 
