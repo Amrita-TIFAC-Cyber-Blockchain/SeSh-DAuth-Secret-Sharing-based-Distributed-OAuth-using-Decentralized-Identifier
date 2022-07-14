@@ -356,7 +356,7 @@ jQuery(function( $ ){
                     if (result) { console.log(result); }
                     // console.log();
                     
-                };
+                   });
                 
             }
             var s0 = 0;
