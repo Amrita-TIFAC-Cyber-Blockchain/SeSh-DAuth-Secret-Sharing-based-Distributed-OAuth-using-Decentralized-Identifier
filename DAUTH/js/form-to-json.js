@@ -118,7 +118,6 @@ jQuery(function( $ ){
                 // return stringifyJsonData;
             }
 
-
         }
 
         // reset data
@@ -354,7 +353,7 @@ jQuery(function( $ ){
 
                     console.log("Result: ", result)
                     if (err) { console.log(err); }
-                    if (result) {  }
+                    if (result) { console.log(result); }
                     // console.log();
                     
                 };
