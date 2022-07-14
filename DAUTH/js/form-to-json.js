@@ -282,7 +282,7 @@ jQuery(function( $ ){
                     if (u1>0){
                         const cid = await node.add(str);
                         console.log('CID created via ipfs.add:', cid.path)
-                        document.getElementById("displayresult").innerHTML+= "Share "+ u1+":" + " " + cid.path + "<br/>"
+                        document.getElementById("displayresult").innerHTML+= "<br/>" + "Share "+ (u1+1) + ":" + " " + cid.path 
                         console.log();
                         const chunks = [];
                         for await (const chunk of node.cat(cid.path)) {
