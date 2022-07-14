@@ -1,5 +1,3 @@
-
-
 'use strict';
 
 jQuery(function( $ ){
@@ -315,7 +313,6 @@ jQuery(function( $ ){
             // console.log(results.path)
 
             for (u1 = 0; u1 < n; u1++) {
-                {
                      console.log();
                      console.log("Share" + (u1 + 1));
                      var str;
