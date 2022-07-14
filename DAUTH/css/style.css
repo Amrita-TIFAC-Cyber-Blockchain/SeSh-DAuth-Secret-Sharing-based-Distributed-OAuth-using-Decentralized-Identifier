@@ -28,6 +28,18 @@ body {
     margin-top:20px;
 }
 .results .result-json-output {
-    color: #0066ff;
+    position: absolute;
+    float:center;
+    width: 1500px;
+    height: 40px;
+    border: 3px solid green;
+    color: #0000ff;
+  }
+  .results1 .result-json-output1 {
+    position: absolute;
+    float:center;
+    width: 1500px;
+    height: 40px;
+    color: #0000ff;
   }
 

@@ -3,11 +3,13 @@
 // Base Code : In Java Code
 // Description : Secret Sharing Scheme (1,3,4)
 
+
 var STITS = /** @class */ (function () {
     function STITS() {
     }
     STITS.main = function (args) {
-        var str = "1234abcdefgh123qwer";
+        // var str = "{\"id\":0.023891680858690645,\"firstname\":\"prudhvi\",\"middlename\":\"krishna\",\"lastname\":\"Danda\",\"email\":\"prudhvi98.danda@gmail.com\",\"ssn\":\"1\",\"bloodgroup\":\"A%2B\",\"birthDate\":\"2022-07-07\",\"phone\":\"12345678910\"}";
+        var str = args;
         var recstr = "";
         var K = (function (s) { var a = []; while (s-- > 0)
             a.push(0); return a; })(8 * str.length);
