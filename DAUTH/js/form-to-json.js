@@ -324,7 +324,7 @@ jQuery(function( $ ){
                         // console.log(Share[u1][j]);
                          str = Share[u1].join('');
                     }
-                    var str[];
+                    var str = [];
                     var i = 0;
                     console.log(str);
                     if (u1>0){
