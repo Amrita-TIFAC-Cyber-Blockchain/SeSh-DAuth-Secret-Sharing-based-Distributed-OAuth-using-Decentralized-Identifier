@@ -1,5 +1,5 @@
-# DAuth: Distributed OAuth using Decentralized Identifiers with Secret Sharing ![](https://img.shields.io/badge/-Live-brightgreen)
-![](https://img.shields.io/badge/Batch-20CYS-green) ![](https://img.shields.io/badge/Domain-Blockchain-blue) ![](https://img.shields.io/badge/M.Tech--Thesis-WIP-orange)  ![](https://img.shields.io/badge/Focus-Authentication-yellow) ![](https://img.shields.io/badge/AmritaBlockchain-WIP-orange) <br/>
+# SSH-DAuth: Secret Sharing based Distributed OAuth using Decentralized Identifier ![](https://img.shields.io/badge/-Completed-brightgreen)
+![](https://img.shields.io/badge/Batch-20CYS-green) ![](https://img.shields.io/badge/Domain-Blockchain-blue) ![](https://img.shields.io/badge/M.Tech--Thesis-Completed-brightgreen)  ![](https://img.shields.io/badge/Focus-Authentication-yellow) ![](https://img.shields.io/badge/AmritaBlockchain-Completed-brightgreen) <br/>
 ![](https://img.shields.io/badge/Blockchain-Ethereum-blue) ![](https://img.shields.io/badge/Blockchain-Hyperledger_Indy-blue) ![](https://img.shields.io/badge/Storage-IPFS-blue) ![](https://img.shields.io/badge/Security-SecretSharing-blue)
 
 ## Abstract 
