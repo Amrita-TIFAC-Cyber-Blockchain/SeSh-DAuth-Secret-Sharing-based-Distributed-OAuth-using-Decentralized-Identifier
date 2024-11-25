@@ -24,5 +24,5 @@ We would like to acknowldge the support provided by **TIFAC-CORE in Cyber Securi
 - [Ramaguru R., Sindhu M., Sethumadhavan M.]() (2019) **Blockchain for the Internet of Vehicles.** In: Singh M., Gupta P., Tyagi V., Flusser J., Ören T., Kashyap R. (eds) Advances in Computing and Data Sciences. ICACDS 2019. Communications in Computer and Information Science, vol 1045. Springer, Singapore. https://doi.org/10.1007/978-981-13-9939-8_37
 
 ## Publication
-TBD 
+[Krishna, D. P., Ramaguru, R., Praveen, K., Sethumadhavan, M., Ravichandran, K. S., Krishankumar, R., & Gandomi, A. H.]() (2023). **SSH-DAuth: secret sharing based decentralized OAuth using decentralized identifier**. _Scientific Reports_, 13(1), 18335.
 
