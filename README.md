@@ -18,6 +18,13 @@ We would like to acknowldge the support provided by **TIFAC-CORE in Cyber Securi
 #### Guide : Dr. K. Praveen, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
 #### Co-Guide : Mr. Ramaguru Radhakrishnan, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
 
+## SDG Alignment 
+<p align="center">
+<img src="https://github.com/ramagururadhakrishnan/UN-SDG/blob/b42040bf1537ad6be89cd71d42050af13e93cc1c/Assets/G9.png" width=144/>
+<img src="https://github.com/ramagururadhakrishnan/UN-SDG/blob/b42040bf1537ad6be89cd71d42050af13e93cc1c/Assets/G11.png" width=144/>
+<img src="https://github.com/ramagururadhakrishnan/UN-SDG/blob/b42040bf1537ad6be89cd71d42050af13e93cc1c/Assets/G16.png" width=144/>
+</p>
+
 ## References
 - [Thomas A.M., Ramaguru R., Sethumadhavan M.]() (2022) **Distributed Identity and Verifiable Claims Using Ethereum Standards.** In: Ranganathan G., Fernando X., Shi F. (eds) Inventive Communication and Computational Technologies. Lecture Notes in Networks and Systems, vol 311. Springer, Singapore. https://doi.org/10.1007/978-981-16-5529-6_48
 - [Taraka Rama Mokshagna Teja M., Praveen K.]() (2022) **Prevention of Phishing Attacks Using QR Code Safe Authentication.** In: Smys S., Balas V.E., Palanisamy R. (eds) Inventive Computation and Information Technologies. Lecture Notes in Networks and Systems, vol 336. Springer, Singapore. https://doi.org/10.1007/978-981-16-6723-7_27
