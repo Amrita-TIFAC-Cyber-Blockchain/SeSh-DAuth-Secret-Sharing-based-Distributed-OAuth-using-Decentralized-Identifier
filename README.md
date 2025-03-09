@@ -3,6 +3,7 @@
 ![](https://img.shields.io/badge/Blockchain-Ethereum-blue) ![](https://img.shields.io/badge/Blockchain-Hyperledger_Indy-blue) ![](https://img.shields.io/badge/Storage-IPFS-blue) ![](https://img.shields.io/badge/Security-SecretSharing-blue)
 
 ## Abstract 
+OAuth2.0 is a Single Sign-On approach that helps to authorize users to log into multiple applications without re-entering the credentials. Here, the OAuth service provider controls the central repository where data is stored, which may lead to third-party fraud and identity theft. To circumvent this problem, we need a distributed framework to authenticate and authorize the user without third-party involvement. This paper proposes a distributed authentication and authorization framework using a secret-sharing mechanism that comprises a blockchain-based decentralized identifier and a private distributed storage via an interplanetary file system. We implemented our proposed framework in Hyperledger Fabric (permissioned blockchain) and Ethereum TestNet (permissionless blockchain). Our performance analysis indicates that secret sharing-based authentication takes negligible time for generation and a combination of shares for verification. Moreover, security analysis shows that our model is robust, end-to-end secure, and compliant with the Universal Composability Framework.
 
 ## Proposed Architecture 
 <p align="center">
@@ -13,7 +14,7 @@
 [Click here](https://amrita-tifac-cyber-blockchain.github.io/DAuth-Distributed-OAuth-using-Decentralized-Identifiers-with-Secret-Sharing/DAUTH/index.html) to access the webpage.
 
 ## Acknowledgement
-We would like to acknowldge the support provided by **TIFAC-CORE in Cyber Security**, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "**M.Tech Cyber Security**" Thesis. 
+We would like to acknowldge the support provided by **TIFAC-CORE in Cyber Security**, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "**M.Tech Cyber Security**" Dissertation. 
 
 #### Guide : Dr. K. Praveen, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
 #### Co-Guide : Mr. Ramaguru Radhakrishnan, Assistant Professor, TIFAC-CORE in Cyber Security, ASE - Coimbatore
